@@ -1,0 +1,214 @@
+<!--Created By Lalith Kiran-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sleep.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionMusichomepage">
+        <div class="mainpage-background">
+            <div class="background d-flex flex-column justify-content-center text-center">
+                <h1 class="font-colours main-heading">Sleep Music</h1>
+                <p class="font-colours paragraph">Soothing bedtime music to help you fall into a deep and natural sleep</p>
+            </div>
+            <div class="night-island-card text-center">
+                <div class="night-island-background d-flex flex-column justify-content-center">
+                    <h1 class="font-colours night-island">Night Island</h1>
+                </div>
+                <p class="font-colours paragraph ">Non-Stop 8-hours mixes of our most popular sleep audio</p>
+                <button class="font-colours button" onclick="display('sectionMusicDetailpage')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id=sectionMusicDetailpage>
+        <div class="detailpage-background-continer">
+            <div class="detailpage-main-card">
+                <div class="detailpage-main-card-image"></div>
+            </div>
+            <div class="detailpage-bottom-padding">
+                <h1 class="font-colours night-island">Night Island</h1>
+                <p class="detail-page-fontcolours detailpage-side-heading">Ease the mind into a restful night's sleep with these deep, amblent tones.</p>
+                <p class="detail-page-fontcolours detailpage-time">45 MIN SLEEP MUSIC</p>
+                <h1 class="font-colours related">Related</h1>
+                <div class="d-flex font-row">
+                    <div class="detailpage-smallcards">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="music-details-header-image" onclick="display('sectioncloudsvideo')">
+                        <h1 class="font-colours card-heading">Moon Clouds</h1>
+                        <p class="detail-page-fontcolours detailpage-time">55 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div class="detailpage-smallcards">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="music-details-header-image" onclick="display('sectionSleepsvideo')">
+                        <h1 class="font-colours card-heading">Sweet Sleep</h1>
+                        <p class="detail-page-fontcolours detailpage-time">60 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <button class="font-colours button detailpage-margin-bottom" onclick="display('sectionMusichomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncloudsvideo">
+        <div class="video-backgound-continer detailpage-bottom-padding">
+            <h1 class="font-colours night-island">Moon Clouds</h1>
+            <div class="video-card-continer">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zkjHtXwOkI4?rel=0" allowfullscreen></iframe>
+                </div>
+                <h1 class="more-videos">Play Next</h1>
+                <hr />
+                <div class="d-flex flex-row">
+                    <div class="detailpage-smallcards">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="music-details-header-image" onclick="display('sectionsleepvideodetail')">
+                        <h1 class="font-colours card-heading">Moon Rise</h1>
+                        <p class="detail-page-fontcolours detailpage-time">54 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div class="video-cards-continer">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="music-details-header-image" onclick="display('sectionscloudvideodetail')">
+                        <h1 class="font-colours card-heading">Moon O Moon</h1>
+                        <p class="detail-page-fontcolours detailpage-time">45 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <hr />
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button font-colours" onclick="display('sectionMusicDetailpage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSleepsvideo">
+        <div class="video-backgound-continer detailpage-bottom-padding">
+            <h1 class="font-colours night-island">Sweet Sleep</h1>
+            <div class="video-card-continer">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/51Aqx3GdjGE?rel=0" allowfullscreen></iframe>
+                </div>
+                <h1 class="more-videos">Play Next</h1>
+                <hr />
+                <div class="d-flex flex-row">
+                    <div class="video-cards-continer">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="music-details-header-image" onclick="display('sectionsleepdetailvideo')">
+                        <h1 class="font-colours card-heading">Nursery Rythm</h1>
+                        <p class="detail-page-fontcolours detailpage-time">30 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div class="video-cards-continer">
+                        <img src="https://image.shutterstock.com/image-vector/moon-star-600w-128087612.jpg" class="music-details-header-image" onclick="display('sectionrelaxingdetailvideo')">
+                        <h1 class="font-colours card-heading">Relaxing</h1>
+                        <p class="detail-page-fontcolours detailpage-time">60 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <hr />
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button font-colours" onclick="display('sectionMusicDetailpage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionsleepvideodetail">
+        <div class="detailpage-background-continer night-island-card">
+            <h1 class="font-colours night-island">Monnrise & Sky Stars Falling...</h1>
+            <div class="video-card-continer d-flex flex-column justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 detailpage-margin-bottom">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BNAcR-Myp2k?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h1 class="font-colours card-heading">Moon Rise</h1>
+            <p class="detail-page-fontcolours detailpage-time">54 MIN SLEEP MUSIC</p>
+            <hr />
+            <ul class="detail-page-fontcolours detailpage-side-heading">
+                <li>Thou silver deity of secret night,</li>
+                <li>Direct my footsteps through the woodland shade;</li>
+                <li>Thou conscious witness of unknown delight,</li>
+                <li>The Lover’s guardian, and the Muse’s aid!</li>
+                <li>thy pale beams I solitary rove</li>
+                <li>To thee my tender grief confide;</li>
+                <li>Serenely sweet you gild the silent grove,</li>
+                <li>My friend, my goddess, and my guide …</li>
+            </ul>
+            <hr />
+            <button class="button font-colours" onclick="display('sectioncloudsvideo')">back</button>
+        </div>
+    </div>
+    <div id="sectionscloudvideodetail">
+        <div class="detailpage-background-continer night-island-card">
+            <h1 class="font-colours night-island">Moon O Moon video...</h1>
+            <div class="video-card-continer d-flex flex-column justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 detailpage-margin-bottom">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GAwYStoanJM?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h1 class="font-colours card-heading">Moon O Moon</h1>
+            <p class="detail-page-fontcolours detailpage-time">45 MIN SLEEP MUSIC</p>
+            <hr />
+            <ul class="detail-page-fontcolours detailpage-side-heading unordered-list">
+                <li>Moonlight drowns out all but the brightest stars.</li>
+                <li>The Moon fascinates us in her simplicity</li>
+                <li>The Moon is magic for the soul and light for the senses.</li>
+                <li>Stay wild, moon child.</li>
+                <li>The Moon lives in the lining of your skin.</li>
+                <li>You can be the Moon and still be jealous of the stars</li>
+                <li>The Moon is beautiful only when the mind is seeking beauty and the heart is loving.</li>
+                <li>The full Moon - the mandala of the sky.</li>
+            </ul>
+            <hr />
+            <button class="button font-colours" onclick="display('sectioncloudsvideo')">back</button>
+        </div>
+    </div>
+    <div id="sectionsleepdetailvideo">
+        <div class="detailpage-background-continer night-island-card">
+            <h1 class="font-colours night-island">Nursery Rythm video song...</h1>
+            <div class="video-card-continer d-flex flex-column justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 detailpage-margin-bottom">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Pk7UDVYh2bs?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h1 class="font-colours card-heading">Nursery Rythm</h1>
+            <p class="detail-page-fontcolours detailpage-time">30 MIN SLEEP MUSIC</p>
+            <hr>
+            <ul class="detail-page-fontcolours detailpage-side-heading unordered-list">
+                <li>One, two, three, four, five,</li>
+                <li>Once I caught a fish alive,</li>
+                <li>Six, seven, eight, nine, ten,</li>
+                <li>Then I let go again.</li>
+                <li>Why did you let it go?</li>
+                <li>Because it bit my finger so.</li>
+                <li>Which finger did it bite?</li>
+                <li>This little finger on the right</li>
+            </ul>
+            <hr />
+            <button class="button font-colours" onclick="display('sectionSleepsvideo')">back</button>
+        </div>
+    </div>
+    <div id="sectionrelaxingdetailvideo">
+        <div class="detailpage-background-continer night-island-card">
+            <h1 class="font-colours night-island">Relaxing...</h1>
+            <div class="video-card-continer d-flex flex-column justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 detailpage-margin-bottom">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1PeARQtZ1o8?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h1 class="font-colours card-heading">Relaxing</h1>
+            <p class="detail-page-fontcolours detailpage-time">60 MIN SLEEP MUSIC</p>
+            <hr>
+            <ul class="detail-page-fontcolours detailpage-side-heading">
+                <li>Baa, baa black sheep</li>
+                <li>Have you any wool</li>
+                <li>Yes sir, yes sir</li>
+                <li>Three bags full.</li>
+                <li>One for my master</li>
+                <li>And one for my dame</li>
+                <li>And one for the little boy</li>
+                <li>Who lives down the lane.</li>
+            </ul>
+            <hr />
+            <button class="button font-colours" onclick="display('sectionSleepsvideo')">back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

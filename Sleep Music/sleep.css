@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.mainpage-background {
+    background-color: #03174c;
+    height: 100vh;
+}
+
+.background {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 40vh;
+    padding: 15px;
+}
+
+.font-colours {
+    color: white;
+    font-family: 'Bree Serif';
+}
+
+.main-heading {
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.night-island-card {
+    padding: 15px;
+}
+
+.night-island-background {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    background-size: cover;
+    height: 27vh;
+    margin-bottom: 5px;
+}
+
+.night-island {
+    font-size: 32px;
+}
+
+.button {
+    text-align: center;
+    background-color: #8e97fd;
+    height: 30px;
+    width: 110px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.detailpage-background-continer {
+    background-color: #03174c;
+    background-size: cover;
+    height: 100vh;
+}
+
+.detailpage-main-card {
+    border-radius: 3px;
+}
+
+.detailpage-main-card-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png');
+    height: 40vh;
+    background-size: cover;
+}
+
+.detailpage-bottom-padding {
+    padding: 15px;
+}
+
+.detail-page-fontcolours {
+    color: #98a1bd;
+    font-family: 'Bree Serif';
+}
+
+.detailpage-side-heading {
+    font-size: 12px;
+}
+
+.detailpage-time {
+    font-size: 14px;
+}
+
+.related {
+    font-size: 19px;
+}
+
+.detailpage-smallcards {
+    margin-right: 10px;
+}
+
+.music-details-header-image {
+    width: 40vw;
+    height: 15vh;
+    margin-bottom: 3px;
+}
+
+.card-heading {
+    font-size: 15px;
+}
+
+.detailpage-margin-bottom {
+    margin-bottom: 15px;
+}
+
+.video-backgound-continer {
+    background-color: #03174c;
+    background-size: cover;
+    height: 100vh;
+}
+
+.video-card-continer {
+    width: 83vw;
+    margin-top: 40px;
+}
+
+.more-videos {
+    font-family: 'Bree Serif';
+    color: #98a1bd;
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+.video-cards-continer {
+    width: 40vw;
+    margin-top: 40px;
+    margin: 5px;
+}
+
+.unordered-list {
+    list-style-type: circle;
+}
